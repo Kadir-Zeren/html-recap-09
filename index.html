@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Landing Page</title>
   </head>
   <body>
     <header class="header">
@@ -26,14 +27,43 @@
             <a class="header__link" href="#">Images</a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#">Store</a>
+            <a class="header__link" href="#"
+              ><img
+                src="./images/appicon.png"
+                class="header__link--appicon"
+                alt=""
+            /></a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#">Store</a>
+            <a class="header__link" href="#"
+              ><button class="header__link--button">Sign In</button></a
+            >
           </li>
         </ul>
       </div>
-
     </header>
+    <main class="main">
+      <img src="./images/googlelogo.png" alt="" class="main__logo" />
+      <div class="main__search-bar">
+        <img
+          src="./images/magnifying_glass.jpg"
+          alt=""
+          class="main__search-bar--magnifier"
+        />
+        <input type="search" name="" class="main__search-bar--input" />
+        <img
+          src="./images/google_microphone.png"
+          class="main__search-bar--mic"
+          alt=""
+        />
+      </div>
+      <div class="main__buttons">
+        <button class="main__buttons--left">Google Search</button>
+        <button class="main__buttons--right">I'm Feeling Lucky</button>
+      </div>
+      <div class="main_language">
+        <p>Other Languages you can use Google: <a href="">English</a></p>
+      </div>
+    </main>
   </body>
 </html>
